@@ -1,0 +1,72 @@
+.join {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 95vh;
+}
+.main {
+    height: 90hv;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 16px;
+    
+}
+.logo {
+    width: 100%;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+}
+.logo img {
+    width: 40%;
+    height: 300px;
+}
+.btns {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    
+}
+.btn-acessar {
+    background-color: #ffc400;
+    height: 35px;
+    width: 30%;
+    padding: 5px;
+    border-radius: 15px;
+    border: 1px solid #ffc400;
+}
+.btn-cadastrar {
+    background-color: #ffc400;
+    height: 35px;
+    width: 30%;
+    border-radius: 15px;
+    border: 1px solid #ffc400;
+}
+.sec {
+    width: 100%;
+    height: 98vh;
+    display: flex;
+    flex-direction: row;
+    background-color: #ffc400;
+}
+.lapis {
+    height: 50px;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    position: relative;
+    animation-name: example;
+    animation-duration: 3s;  
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+}
+@keyframes example {
+  from {top: 0px;}
+  to {top: 600px; }
+}
